@@ -1,0 +1,21 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    image_size (2.0.2)
+    rake (13.0.1)
+    review (4.1.0)
+      image_size
+      rouge
+      rubyzip
+    rouge (3.17.0)
+    rubyzip (2.3.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rake
+  review (= 4.1.0)
+
+BUNDLED WITH
+   2.1.4
