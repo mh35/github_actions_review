@@ -63,6 +63,7 @@ aut: ["MH35"]
 # a-ths, ths: 監督者
 # a-trc, trc: 筆記・タイプ作業者
 # a-trl, trl: 翻訳者
+pbl: ねこのしっぽ
 
 # contact: 連絡先
 
@@ -330,7 +331,7 @@ texstyle: ["reviewmacro"]
 # LaTeX用のdocumentclassを指定する
 # オプションについてはsty/README.mdを参照
 # デフォルトは印刷用。電子配布版を作るには media=ebook とする
-texdocumentclass: ["review-jsbook", "media=print,paper=a5"]
+texdocumentclass: ["review-jsbook", "media=print,paper=a5,line_length=34zw,number_of_lines=29,serial_pagination=true"]
 #
 # LaTeX用のコマンドを指定する
 # texcommand: "uplatex"
