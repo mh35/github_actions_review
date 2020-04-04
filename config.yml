@@ -26,7 +26,7 @@ booktitle: "GitHub Actionsを使ってRe:Viewで電子書籍とPDFを作る"
 
 # 著者名。「, 」で区切って複数指定できる
 # 読みを入れる例 aut: [{name: "青木峰郎", file-as: "アオキミネロウ"}, {name: "武藤健志", file-as: "ムトウケンシ"}, {name: "高橋征義", file-as: "タカハシマサヨシ"}, {name: "角征典", file-as: "カドマサノリ"}]
-aut: ["MH35"]
+aut: ["よろず屋H MH35"]
 
 # 以下はオプション
 # 以下はオプション(autと同じように配列書式で複数指定可能)。
@@ -125,7 +125,7 @@ toc: true
 #
 # 表紙に配置し、書籍の影絵にも利用する画像ファイル。省略した場合はnull (画像を使わない)。画像ディレクトリ内に置いてもディレクトリ名は不要(例: cover.jpg)
 # PDFMaker 固有の表紙設定は pdfmaker セクション内で上書き可能
-coverimage: cover.jpg
+coverimage: cover_v2.jpg
 #
 # 表紙の後に大扉ページを作成するか。省略した場合はtrue (作成する)
 # titlepage: true
