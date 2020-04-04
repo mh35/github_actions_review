@@ -1,7 +1,10 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    eim_xml (0.0.4)
     image_size (2.0.2)
+    math_ml (0.14)
+      eim_xml
     rake (13.0.1)
     review (4.1.0)
       image_size
@@ -14,6 +17,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  math_ml
   rake
   review (= 4.1.0)
 

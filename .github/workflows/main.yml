@@ -1,0 +1,24 @@
+on: [push]
+jobs:
+  build_job:
+    runs-on: ubuntu-latest
+    name: Build book
+    steps:
+      -
+        name: Checkout
+        uses: actions/checkout@v2
+      -
+        name: Build
+        uses: mh35/review_action
+      -
+        name: Upload PDF artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: book.pdf
+          path: book.pdf
+      -
+        name: Upload ePub artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: book.epub
+          path: book.epub

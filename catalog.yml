@@ -2,7 +2,7 @@ PREDEF:
   - intro.re
 
 CHAPS:
-  - github_actions_review.re
+  - chapter1.re
 
 APPENDIX:
 
