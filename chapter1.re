@@ -59,4 +59,4 @@ ENTRYPOINT ["/entrypoint.sh"]
 
 == GitHubレポジトリにpushする
 
-ここまで準備ができたら、GitHubにレポジトリを作って、そこにpushします。今回のここまでのソースは@<href>{https://github.com/mh35/review_action}にあります。ぜひご活用ください。
+ここまで準備ができたら、GitHubにレポジトリを作って、そこにpushします。その後、タグv1を切ってpushします。今回のここまでのソースは@<href>{https://github.com/mh35/review_action}にあります。ぜひご活用ください。
